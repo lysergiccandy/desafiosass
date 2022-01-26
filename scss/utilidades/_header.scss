@@ -1,0 +1,31 @@
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 173, 181);
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 173, 181);
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+
+    &:hover {
+        color: rgb(98, 99, 100) !important;
+        transition: 0.5s;
+    }
+}

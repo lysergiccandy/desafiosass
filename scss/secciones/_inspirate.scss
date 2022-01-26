@@ -1,0 +1,13 @@
+.div_img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.div__img {
+    height: 400px;
+    width: 500px;
+}

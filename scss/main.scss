@@ -1,4 +1,4 @@
-@import './variables/colores';
+
 @import './variables/fuentes';
 //
 @import "./utilidades/header";
@@ -11,3 +11,88 @@
 @import './secciones/tienda';
 
 //
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    min-height: 100vh;
+
+}
+
+
+@media screen and (min-width:1000px) {
+    .divFoo form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .divFoo form .formInput {
+       margin: 1px;
+    }
+    .navbar-kassia .nav-item{
+        margin: 0 25px;
+    }
+    .ul li a {
+        font-size: 40px;
+    }
+
+}
+
+p {
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    color: rgb(187, 185, 185);
+    padding-left: 10px;
+
+}
+strong {
+    color: rgb(0, 173, 181);
+    font-size: 30px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    padding-left: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 173, 181);
+
+    background-color: rgb(238, 238, 238);
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: rgb(187, 185, 185);
+    padding-left: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+a:hover {
+    color: rgb(98, 99, 100) !important;
+    transition: 0.5s;
+}
+input,
+select {
+    font-family: 'Bebas Neue';
+}
