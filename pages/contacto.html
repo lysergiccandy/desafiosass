@@ -51,48 +51,29 @@
         </div>
     </nav>
 </header>
-    <main class="main__contact">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="div__contact">
-            <h2>COMPLETE EL FORMULARIO</h2>
-
-            <form action="#" method="GET">
-
-                <input class="nombreApellido" type="text" placeholder="ingresa tu nombre" name="nombre" required />
-                <br>
-                <input class="nombreApellido" type="tel" placeholder="teléfono" name="nombre_apellido" required />
-                <br>
-                <input class="nombreApellido" type="email" placeholder="E-mail" name="nombre_apellido" />
+    <main>
+        <div class="container">  
+            <form id="contact" action="" method="post">
+              <h3>CONTACTO</h3>
+              <p>Escribinos tu consulta</p>
+              <fieldset>
+                <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="E-mail" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Telefono (opcional)" type="tel" tabindex="3" unrequired>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Escribinos tu consulta acá...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button class="buttomSub" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+              </fieldset>
             </form>
-
-            <select name="Lugar de residencia">
-                <option value="Lugar de residencia">Lugar de residencia</option>
-                <option value="GBA">GBA</option>
-                <option value="CABA">CABA</option>
-                <option value="interior">INTERIOR</option>
-            </select>
-            </form>
-
-            <br>
-
-
-
-            <form class="" action="Comentarios">
-                <textarea class="form__textArea" name="Comentarios" id="" cols="30"
-                    rows="15">Escriba su consulta</textarea>
-            </form>
-            <form action="">
-                <input class="" type="submit" value="Enviar formulario">
-                <input class="" type="reset" value="Limpiar formulario">
-            </form>
-            <br>
-            <br>
-            <br>
-        </div>
+          </div>
+    
     </main>
     <footer class="footer">
         <div class="divFoo p-3">
