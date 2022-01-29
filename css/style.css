@@ -124,6 +124,24 @@ input:hover {
   list-style: square;
   margin: 20px; }
 
+/* FAQS */
+.accordion-kassia .accordion-button {
+  background-color: white;
+  color: #00adb5;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px; }
+
+.accordion-kassia .accordion-button:not(.collapsed) {
+  background-color: #00adb5;
+  color: white;
+  font-family: "Bebas Neue", cursive; }
+
+.accordion-kassia .accordion-body {
+  color: #bbb9b9;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px; }
+
+/* FAQS */
 .div_img {
   display: flex;
   flex-direction: row;
@@ -136,6 +154,12 @@ input:hover {
   height: 400px;
   width: 500px; }
 
+.img-product {
+  max-height: 200px; }
+
+.card:hover {
+  box-shadow: 0 0 15px #79B4B7; }
+
 * {
   padding: 0;
   margin: 0;
@@ -143,8 +167,7 @@ input:hover {
 
 main {
   background-color: #eeeeee;
-  padding: 10px;
-  min-height: 100vh; }
+  padding: 10px; }
 
 @media screen and (min-width: 1000px) {
   .divFoo form {

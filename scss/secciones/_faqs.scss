@@ -6,3 +6,21 @@
     list-style: square;
     margin: 20px;
 }
+/* FAQS */
+.accordion-kassia .accordion-button{
+    background-color: white;
+    color: #00adb5;
+    font-family: $bebas;
+    font-size: 30px;
+  }
+  .accordion-kassia .accordion-button:not(.collapsed) {
+  background-color: #00adb5;
+  color: white;
+  font-family: $bebas;
+  }
+  .accordion-kassia .accordion-body{
+    color: #bbb9b9;
+    font-family: $bebas;
+    font-size: 30px;
+  }
+  /* FAQS */
