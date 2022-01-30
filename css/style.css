@@ -65,6 +65,13 @@ footer {
 .divFoo h4 {
   width: 100%; }
 
+.mainUs {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%; }
+
 .container {
   max-width: 400px;
   width: 100%;
@@ -282,3 +289,10 @@ a:hover {
 input,
 select {
   font-family: 'Bebas Neue'; }
+
+.carousel-kassia-home .carousel-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%; }
