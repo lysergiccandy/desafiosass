@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+	<loc>https://kassia.000webhostapp.com/index.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.5</priority>
+</url>
+
+<url>
+	<loc>https://kassia.000webhostapp.com/pages/tienda.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>daily</changefreq>
+	<priority>0.9</priority>
+</url>
+
+<url>
+	<loc>https://kassia.000webhostapp.com/pages/inspirate.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.5</priority>
+</url>
+
+<url>
+	<loc>https://kassia.000webhostapp.com/pages/faqs.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>monthly</changefreq>
+	<priority>0.3</priority>
+</url>
+
+<url>
+	<loc>https://kassia.000webhostapp.com/pages/contacto.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>yearly</changefreq>
+	<priority>0.1</priority>
+</url>
+
+<url>
+	<loc>https://kassia.000webhostapp.com/pages/aboutus.html</loc>
+	<lastmod>2022-01-30</lastmod>
+	<changefreq>yearly</changefreq>
+	<priority>0.1</priority>
+</url>
+
+</urlset>
