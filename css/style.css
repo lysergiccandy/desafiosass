@@ -65,6 +65,12 @@ footer {
 .divFoo h4 {
   width: 100%; }
 
+.navLinks .nav-item a {
+  opacity: 0.7; }
+
+.navLinks .nav-item a.active {
+  opacity: 1; }
+
 .mainUs {
   align-items: flex-start;
   display: flex;
@@ -215,7 +221,8 @@ fieldset {
 
 .div__img {
   height: 400px;
-  width: 500px; }
+  width: 500px;
+  box-shadow: 0 0 15px #79B4B7; }
 
 .img-product {
   max-height: 200px; }
