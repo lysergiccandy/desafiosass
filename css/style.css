@@ -56,19 +56,6 @@ footer {
   color: #eeeeee;
   text-decoration: none; }
 
-.divFoo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 0;
-  padding: 0; }
-
-.divFoo h4 {
-  width: 100%; }
-
 .navLinks .nav-item a {
   opacity: 0.7; }
 
