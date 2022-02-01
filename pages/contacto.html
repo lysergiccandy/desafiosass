@@ -51,7 +51,7 @@
         </div>
     </nav>
 </header>
-    <main>
+    <main class="mainContact">
         <div class="container">  
             <form id="contact" action="" method="post">
               <h3>CONTACTO</h3>
@@ -76,15 +76,24 @@
     
     </main>
     <footer class="footer">
-        <div class="divFoo p-3">
-            <h4>SUBSCRIBIRSE AL NEWSLETTER</h4>
-            <form action="#" method="GET">
-                <div class="formInput  "><input class="formFull" type="text" placeholder="ingresa tu nombre"
-                        name="nombre" required /></div>
-                <div class="formInput "><input class="formFull" type="email" placeholder="E-mail" name="E-mail" /></div>
-                <div class="formInput "> <input type="submit" value="Enviar"></div>
-            </form>
+        <div>
+               
+            <div class="container-st">  
+               <h4>SUBSCRIBIRSE AL NEWSLETTER</h4>
+              <form id="contact-st" action="" method="post">
+              
+                <fieldset class="st">
+                  <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset class="st">
+                  <input placeholder="E-mail" type="email" tabindex="2" required>
+                </fieldset class="st">
+                  <button class="buttomSub" name="submit" type="submit" id="contact-submit" data-submit="...Sending">ENVIAR</button>
+                </fieldset>
+              </form>
+            </div>
         </div>
+
 
         <nav class="navLinks p-1">
             <ul class="ul">

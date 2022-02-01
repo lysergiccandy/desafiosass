@@ -1,6 +1,18 @@
-.img-product{
+.img-product {
     max-height: 200px;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: 0 0 15px #79B4B7;
+}
+
+.card .btn.btn-primary {
+    background-color: #00adb5;
+    color: #fff;
+    border-color: #c1d5d6;
+}
+.card-title{
+    font-family: $bebas;
+    color: #00adb5;
+    font-size: 30px;
 }

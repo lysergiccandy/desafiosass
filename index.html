@@ -86,14 +86,23 @@
                 </a>
               </div>
         </main>
-        <footer class="footer">
-            <div class="divFoo p-3">
-                <h4>SUBSCRIBIRSE AL NEWSLETTER</h4>
-                <form action="#" method="GET">
-                    <div class="formInput  "><input class="formFull" type="text" placeholder="ingresa tu nombre" name="nombre" required /></div>
-                    <div class="formInput "><input class="formFull" type="email" placeholder="E-mail" name="E-mail" /></div>
-                    <div class="formInput "> <input type="submit" value="Enviar"></div>
-                </form>
+        <footer>
+            <div>
+               
+                <div class="container-st">  
+                   <h4>SUBSCRIBIRSE AL NEWSLETTER</h4>
+                  <form id="contact-st" action="" method="post">
+                  
+                    <fieldset class="st">
+                      <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset class="st">
+                      <input placeholder="E-mail" type="email" tabindex="2" required>
+                    </fieldset class="st">
+                      <button class="buttomSub" name="submit" type="submit" id="contact-submit" data-submit="...Sending">ENVIAR</button>
+                    </fieldset>
+                  </form>
+                </div>
             </div>
 
             <nav class="navLinks p-1">
