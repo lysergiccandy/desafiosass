@@ -11,4 +11,7 @@
     height: 400px;
     width: 500px;
     box-shadow: 0 0 15px #79B4B7;
+    &:hover{
+        box-shadow: 0 0 15px #62999c;
+    }
 }
