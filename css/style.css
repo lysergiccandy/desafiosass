@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syncopate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 .navLinks {
   display: flex;
   flex-direction: row;
@@ -298,9 +300,9 @@ fieldset {
   font-family: "Bebas Neue", cursive; }
 
 .accordion-kassia .accordion-body {
-  color: #bbb9b9;
-  font-family: "Bebas Neue", cursive;
-  font-size: 30px; }
+  color: #999595;
+  font-family: "Questrial", sans-serif;
+  font-size: 20px; }
 
 /* FAQS */
 .div_img {
