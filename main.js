@@ -1,5 +1,5 @@
 //BUSQUEDA DE PRODUCTOS
-let busquedaUsuario = prompt("Realice su busqueda");
+//let busquedaUsuario = prompt("Realice su busqueda");
 let busquedaLower = busquedaUsuario ? busquedaUsuario.toLowerCase() : "";
 
 const tienda = [
@@ -91,7 +91,9 @@ function agregarCarrito(id) {
     // Si no existe lo agrego
     const producto = new Producto(id);
     listaProductos.push(producto);
+    swal("Muy bien!", "Producto agregado!", "success");
   }
 
   localStorage.setItem("productos", JSON.stringify(listaProductos)); //agrego 'productos' a la 'listaProductos', entonces me lo muestra en el localStorage.
 }
+
