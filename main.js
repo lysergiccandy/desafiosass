@@ -1,9 +1,20 @@
 //BUSQUEDA DE PRODUCTOS
-//let busquedaUsuario = prompt("Realice su busqueda");
-let busquedaLower = busquedaUsuario ? busquedaUsuario.toLowerCase() : "";
 
-const tienda = [
-  {
+function buscarProducto() {
+  const campoBusqueda = document.getElementById("busquedaProductos").value
+  console.log(campoBusqueda)
+  let busquedaUsuario = campoBusqueda;
+  let busquedaLower = busquedaUsuario ? busquedaUsuario.toLowerCase() : "";
+  const productos = tienda.filter((el) => el.titulo.includes(busquedaLower));
+
+  if (productos.length >= 1) {
+    console.log(productos);
+  } else {
+    alert(`No podemos encontrar ${busquedaUsuario}`);
+  }
+}
+
+const tienda = [{
     id: 1,
     titulo: "sansevieria",
     imagen: "./images/kindpng_187973.png",
@@ -47,13 +58,7 @@ const tienda = [
   },
 ];
 
-const productos = tienda.filter((el) => el.titulo.includes(busquedaLower));
 
-if (productos.length >= 1) {
-  console.log(productos);
-} else {
-  alert(`No podemos encontrar ${busquedaUsuario}`);
-}
 
 //CARRITO
 class Producto {
@@ -96,4 +101,3 @@ function agregarCarrito(id) {
 
   localStorage.setItem("productos", JSON.stringify(listaProductos)); //agrego 'productos' a la 'listaProductos', entonces me lo muestra en el localStorage.
 }
-
