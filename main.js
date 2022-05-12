@@ -101,3 +101,19 @@ function agregarCarrito(id) {
 
   localStorage.setItem("productos", JSON.stringify(listaProductos)); //agrego 'productos' a la 'listaProductos', entonces me lo muestra en el localStorage.
 }
+
+
+//fetch
+
+const url = "https://jsonplaceholder.typicode.com/posts"
+const obtenerDatos = ()=>{
+    fetch(url,{
+        method: "POST",
+        body: JSON.stringify(
+          listaProductos
+        ),
+        headers: {'content-type':"application/json"}
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+}
