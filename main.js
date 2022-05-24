@@ -80,7 +80,9 @@ listaProductos.forEach((producto) => {
   );
   totalGeneral += total;
 });
-console.log(`Total General: $${totalGeneral}`);
+//console.log(`Total General: $${totalGeneral}`);
+const mostrarCarrito = document.querySelector("#mostrarCarrito")
+mostrarCarrito.innerHTML = `Total General: $${totalGeneral}`
 
 function agregarCarrito(id) {
   //creo funcion definiendola como agregarCarrito, despues llamo a la funcion otorgando el parametro id
@@ -92,6 +94,7 @@ function agregarCarrito(id) {
   if (productoExisteIndex != -1) {
     // Si existe sumo 1 a cantidad
     listaProductos[productoExisteIndex].cantidad++;
+    swal("Muy bien!", "Producto agregado!", "success");
   } else {
     // Si no existe lo agrego
     const producto = new Producto(id);
@@ -117,3 +120,4 @@ const obtenerDatos = ()=>{
     .then(response => response.json())
     .then(data => console.log(data))
 }
+
